@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+}
+
+.top-bar {
+	min-height: 5vh;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	justify-content: center;
+	padding: 20px;
+	background: #dddddd;
+ }
+       .top-bar .radio-buttons {
+            display: flex;
+            margin-right: 10px;
+            
+        }
+        .top-bar .radio-buttons label {
+            margin-right: 40px;
+            font-size: 30px;
+            color: #crimson;
+            padding: 10px;
+        }
+        .top-bar .dropdown-menu {
+            margin-left: 10px;
+            font-size: 15px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .top-bar .dropdown-menu:hover{
+            background: #fbd0d9;
+            color: black;
+        }
+        .top-bar .radio-buttons input[type="radio"] {
+            margin-right: 5px;
+        }
+	.top-bar .btn-submit-button {
+            margin-left: 20px;
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 5px;
+            background: #fbd0d9;
+    	    color: crimson;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+        .top-bar .btn-submit-button:hover {
+            color: #fff;
+            background: crimson;
+        }
+
+
+.successhead h1{
+	font-size: 50px;
+    color: #333;
+    text-align: center;
+}
+
+.successhead h1 span{
+	background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    padding:0 15px;
+}
+
+
+.some-block{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: #eee;
+    
+}
+
+.some-block .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin:0 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.some-block .btn:hover{
+    background: crimson;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+
+.container .content{
+    text-align: center;
+}
+
+.container .content h3{
+    font-size: 30px;
+    color: #333;
+}
+
+.container .content h3 span{
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    padding:0 15px;
+}
+
+.container .content h1{
+    font-size: 50px;
+    color: #333;
+}
+
+.container .content h1 span{
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    padding:0 15px;
+}
+
+.container .content p{
+	padding: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.container .content .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin:0 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.container .content .btn:hover{
+    background: crimson;
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 16px solid crimson;
+    border-top: 16px solid gray;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+    background: #fff;
+    text-align: center;
+}
+
+.container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.container form input, .container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background:#eee;
+    border-radius: 5px;
+}
+
+.container form select option{
+    background: #fff;
+}
+
+.container form .form-btn{
+    background: #fbd0d9;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container form .form-btn:hover{
+    background: crimson;
+    color:#fff;
+}
+
+.container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.container form p a{
+    color: crimson;
+}
+
+.container form .error-msg{
+	margin: 10px 0;
+	display: block;
+	background: crimson;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 5px solid #dddddd;
+    padding: 10px;
+}
+th {
+    color: white;
+    background-color: crimson;
+}
+
+
