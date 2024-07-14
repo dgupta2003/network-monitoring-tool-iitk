@@ -1,5 +1,5 @@
 # Network Monitoring Tool
-## This project was developed during my Summer Internship at the Computer Center of Indian Institute of Technology, Kanpur (India) in 2024.
+## This project was developed during my Summer Internship at the Computer Centre of Indian Institute of Technology, Kanpur (India) in 2024.
 
 ➡️ This web-based Network Monitoring Tool was developed using **LAMP** stack, for capturing and displaying network traffic data.  
 ➡️ Data filtration was implemented using `tcpdump` command & **Bash scripting**, and the presentation of data extracted was executed with **PHP**, **HTML**, and **CSS**.  
